@@ -1,0 +1,19 @@
+# Cache and compilation files
+__pycache__/
+*.py[cod]
+
+# Ignore contents of history folder, but keep the directory structure
+history/*
+!history/.gitkeep
+
+# Virtual environments
+.venv/
+venv/
+
+# Accidental command artifacts
+=0.10.0
+
+# IDE and OS metadata
+.vscode/
+.idea/
+.DS_Store
